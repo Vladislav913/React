@@ -1,0 +1,30 @@
+
+.nav {
+    grid-area: n;
+    background: aqua;
+    padding: 20px;
+
+}
+.item a {
+    color: white;
+    text-decoration: none;
+}
+.item a.activeLink{
+    color: gold;
+}
+
+.friends{
+    background: chocolate;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.friendsWrapper{
+    display: flex;
+    justify-content: center;
+    margin-right:-10px ;
+}
